@@ -62,7 +62,7 @@ This project use the following electronic components:
 
 | Case 3D Model                                   | Project Final                                   |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/07-case-3d-model.jpg)             | ![](Resources/08-proyect-final.jpg)             |
+| ![](Resources/07-case-3d-model.png)             | ![](Resources/08-proyect-final.jpg)             |
 
 See 'Rescources' sub-folder for more pictures & videos of the project.
 
@@ -70,7 +70,8 @@ See 'Rescources' sub-folder for more pictures & videos of the project.
 
 ### Version History
 
-v1.0 (2025.12.18) - Initial release.
+v1.0 (2025.12.18) - Initial release.  
+v1.1 (2025.12.19) - Adding case 3D model.
 
 &nbsp;
 
