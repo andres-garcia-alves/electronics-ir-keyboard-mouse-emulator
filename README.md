@@ -58,7 +58,7 @@ This project use the following electronic components:
 
 | PCB Render 3D                                   | PCB Render 3D                                   |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/05-pcb-render-3d-front.png)       | ![](Resources/06-pcb-render-3d-rear.jpg)        |
+| ![](Resources/05-pcb-render-3d-front.png)       | ![](Resources/06-pcb-render-3d-rear.png)        |
 
 | Case 3D Model                                   | Project Final                                   |
 |-------------------------------------------------|-------------------------------------------------|
