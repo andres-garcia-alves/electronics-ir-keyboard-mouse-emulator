@@ -48,17 +48,21 @@ This project use the following electronic components:
 
 ### Screenshots
 
-| Breadboard                                      | Schematics Diagram                              |
+| Breadboard                                      | Assembly                                        |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/01-breadboard.jpg)                | ![](Resources/02-schematics-diagram.png)        |
+| ![](Resources/01-breadboard.jpg)                | ![](Resources/02-assembly.jpg)                  |
 
-| PCB Diagram                                     | PCB Render 3D                                   |
+| Schematics Diagram                              | PCB Diagram                                     |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/03-pcb-diagram.png)               | ![](Resources/04-pcb-3d-render-front.png)       |
+| ![](Resources/03-schematics-diagram.png)        | ![](Resources/04-pcb-diagram.png)               |
 
-| PCB Render 3D                                   | Project Final                                   |
+| PCB Render 3D                                   | PCB Render 3D                                   |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/05-pcb-3d-render-rear.png)        | ![](Resources/06-assembly.jpg)                  |
+| ![](Resources/05-pcb-render-3d-front.png)       | ![](Resources/06-pcb-render-3d-rear.jpg)        |
+
+| Case 3D Model                                   | Project Final                                   |
+|-------------------------------------------------|-------------------------------------------------|
+| ![](Resources/07-case-3d-model.jpg)             | ![](Resources/08-proyect-final.jpg)             |
 
 See 'Rescources' sub-folder for more pictures & videos of the project.
 
