@@ -1,34 +1,64 @@
-# Arduino GPIO Tester
+# IR Keyboard+Mouse Emulator
 
-Electronic proyect for easy test of Arduino Nano/UNO analog and digital (GPIO) pins.  
+Electronic project for use a IR Remote Control to control a Home Theater PC (HTPC) based on Arduino PRO Micro.  
+Schematics diagram + PCB diagram (KiCAD 9) and case 3D model (Blender) are also provided.
+
+&nbsp;
+
+General commands:
+- Key Lock/Unlock (to avoid collition with regular TV usage).
+- Key Esc
+- Key Close (close current program)
+- Mouse Change Speed
+- Mouse Left Click
+- Mouse Right Click
+- Mouse MoveUp
+- Mouse Move Right
+- Mouse MoveDown
+- Mouse MoveLeft
+
+Media commands
+- Media Player (open VLC media player)
+- Media Play/Pause
+- Media Stop
+- Media Forward (moves forward 10 seconds)
+- Media Rewind (moves backwards 10 seconds)
+- Media Previous (moves forward 1 minute)
+- Media Next (moves backwards 1 minute)
+- Media Volume Mute
+- Media Volume Up
+- Media Volume Down
+
+Miscellaneous commands
+- MyPC (opens MyPC)
+- Calculator (open Calculator);
+
+Features:
+- Dump of IR Codes (protocols: RC5, RC6, NEC, SONY, PANASONIC, LG, JVC, WHYNTER)
 
 &nbsp;
 
 This project use the following electronic components:
-- 1 x Arduino Nano v3.0
-- 2 x Connector pins
-- 22 x LED 3mm
-- 22 x 1k ohm resistors
+- 1 x Arduino PRO Micro
+- 1 x IR Receiver VS1838
+- 1 x LED 3mm
+- 1 x 1k ohm resistor
 
 &nbsp;
 
 ### Screenshots
 
-| Diagram - Schematics                            | Diagram - PCB                                   |
+| Breadboard                                      | Schematics Diagram                              |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/01-schematic-diagram.png)         | ![](Resources/02-pcb-diagram.png)               |
+| ![](Resources/01-breadboard.jpg)                | ![](Resources/02-schematics-diagram.png)        |
 
-| Diagram - PCB Render                            | Diagram - PCB Render                            |
+| PCB Diagram                                     | PCB Render 3D                                   |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/03-pcb-render-front-side.png)     | ![](Resources/04-pcb-render-back-side.png)      |
+| ![](Resources/03-pcb-diagram.png)               | ![](Resources/04-pcb-3d-render-front.png)       |
 
-| PCB Manufacturing                               | PCB Assembly                                    |
+| PCB Render 3D                                   | Project Final                                   |
 |-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/05-pcb-manufacturing.jpg)         | ![](Resources/06-pcb-assembly.jpg)              |
-
-| PCB Assembly                                    | Project Final                                   |
-|-------------------------------------------------|-------------------------------------------------|
-| ![](Resources/07-pcb-assembly.jpg)              | ![](Resources/08-project-final.jpg)             |
+| ![](Resources/05-pcb-3d-render-rear.png)        | ![](Resources/06-assembly.jpg)                  |
 
 See 'Rescources' sub-folder for more pictures & videos of the project.
 
@@ -36,8 +66,7 @@ See 'Rescources' sub-folder for more pictures & videos of the project.
 
 ### Version History
 
-v1.0 (2023.05.13) - Initial release.  
-v1.1 (2023.05.16) - Bug fixes.  
+v1.0 (2025.12.18) - Initial release.
 
 &nbsp;
 
