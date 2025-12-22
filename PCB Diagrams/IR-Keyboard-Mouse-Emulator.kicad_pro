@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 1.0,
-          "height": 1.27,
-          "width": 2.54
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -59,10 +59,6 @@
         }
       ],
       "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|151130000|93313250|2931de52-4a24-4dcf-b81a-c62ce0c726d5|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
         [
           "silk_over_copper|159954779|110490000|2c865f77-468b-4e00-bb08-b111f755a90a|00000000-0000-0000-0000-000000000000",
           ""
@@ -97,7 +93,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -253,14 +249,6 @@
     "erc_exclusions": [
       [
         "lib_symbol_issues|1371600|660400|9f3e1fe6-19c3-436d-a969-e8fbd9a43527|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|1549400|571500|ca0a58f5-7f7b-4cc6-b5da-bf135044b8c4|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|1549400|901700|cfea98e5-1d52-4e0a-b30f-13f0640b9137|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
       [
@@ -465,7 +453,7 @@
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -497,7 +485,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "IR-Keyboard-Mouse-Emulator-KiCAD.kicad_pro",
+    "filename": "IR-Keyboard-Mouse-Emulator.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -516,8 +504,8 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 1.8,
+        "via_drill": 1.0,
         "wire_width": 6
       }
     ],
