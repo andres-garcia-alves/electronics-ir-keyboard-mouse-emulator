@@ -72,7 +72,7 @@ See 'Rescources' sub-folder for more pictures & videos of the project.
 
 v1.0 (2025.12.18) - Initial release.  
 v1.1 (2025.12.19) - Adding case 3D model.  
-v1.2 (2025.12.22) - Update schematics and pcb.  
+v1.2 (2025.12.22) - Update schematics and PCB.  
 
 &nbsp;
 
