@@ -47,7 +47,7 @@ Benchmarks:
 | USB detach + Clock @2 MHz         |            19-20 mA |
 | USB detach + SLEEP_MODE_PWR_DOWN  |              4-5 mA |
 
-I am currently working on incorporating a hardware power-on solution (interrupts) that can take advantage of SLEEP_MODE_PWR_DOWN.
+I am currently working on incorporating a hardware power-on solution (using `interrupts`) that can take advantage of SLEEP_MODE_PWR_DOWN.
 
 &nbsp;
 
