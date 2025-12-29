@@ -3,6 +3,8 @@
 Electronic project for use a IR Remote Control to control a Home Theater PC (HTPC) based on Arduino PRO Micro.  
 Schematics diagram + PCB diagram (KiCAD 9) and case 3D model (Blender) are also provided.
 
+This project is a **work-in-progress**.
+
 &nbsp;
 
 General commands:
@@ -35,6 +37,17 @@ Miscellaneous commands
 
 Features:
 - Dump of IR Codes (protocols: RC5, RC6, NEC, SONY, PANASONIC, LG, JVC, WHYNTER)
+
+Benchmarks:
+
+| Arduino PRO Micro                 | Tipical consumption |
+|-----------------------------------|---------------------|
+| Normal mode                       |            37-38 mA |
+| ADC + SPI + TWI disabled          |            35-36 mA |
+| USB detach + Clock @2 MHz         |            19-20 mA |
+| USB detach + SLEEP_MODE_PWR_DOWN  |              4-5 mA |
+
+I am currently working on incorporating a hardware power-on solution (interrupts) that can take advantage of SLEEP_MODE_PWR_DOWN.
 
 &nbsp;
 

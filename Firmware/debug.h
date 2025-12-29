@@ -1,23 +1,33 @@
-#include <Arduino.h>
-#include "miscellaneous.h"
+#ifndef DEBUG_H
+#define DEBUG_H
 
-static bool locked = false;
+/* DEFINITIONS */
+#define DEBUG         false   // enable/disable debuging
+#define DELAY_SERIAL  50      // little delay after a Serial.print()
 
-/* LOCKING */
-bool isLocked() {
-  return locked;
+
+/* FUNCTIONS */
+void debugInit()
+{
+  #if DEBUG
+  Serial.begin(9600);
+  while (!Serial) { delay(1); }
+  #endif  
 }
 
-void switchLockUnlock() {
-  locked = !locked;
-  Serial.print("Locking: lock ");
-  Serial.println(locked ? "ON": "OFF");
+// print a message in serial monitor
+void debugMessage(String msg)
+{
+  #if DEBUG
+  Serial.println(msg);
   delay(DELAY_SERIAL);
+  #endif
 }
 
-/* DEBUG */
-void dump(decode_type_t protocol, uint32_t rawData) {
+// print IR Receiver data in serial monitor
+void debugIrReceiverData(decode_type_t protocol, uint32_t rawData) {
 
+  #if DEBUG
   Serial.print("Dump: ");
 
   switch (protocol) {
@@ -34,4 +44,7 @@ void dump(decode_type_t protocol, uint32_t rawData) {
 
   Serial.print(", raw data ");
   Serial.println(rawData, HEX);
+  #endif
 }
+
+#endif
