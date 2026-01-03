@@ -3,7 +3,15 @@
 Electronic project for use a IR Remote Control to control a Home Theater PC (HTPC) based on Arduino PRO Micro.  
 Schematics diagram + PCB diagram (KiCAD 9) and case 3D model (Blender) are also provided.
 
-This project is a **work-in-progress**.
+This project comes in two versions: `Allways On` and `Low Power`.
+
+- The first option provides an immediate response when a remote control button is pressed.  
+However, the gadget will constantly draw approximately 35-40mA from the USB port.
+
+- The second option automatically powers down the device after 30 seconds of inactivity, and it powers back on upon receiving an IR signal.  
+This allows the gadget's power consumption to drop 99% of the time to ~1mA (the consumption of the IR sensor, the only component that remains powered on).  
+However, due to the power-up time and the wait for the PC to recognize the device, there is a slight delay before it can be used.
+
 
 &nbsp;
 
@@ -66,9 +74,9 @@ The 'Low Power' version uses the following electronic components:
 - 2 x 10k ohm resistor
 - 1 x 100k ohm resistor
 - 2 x 4.7k ohm resistor
-- 3 x 1N5817 schottky diode
+- 3 x 1N4148 schottky diode
 - 1 x 10uF electrolitic capacitor
-- 2 x BC547 PNP transistor
+- 3 x BC547 PNP transistor
 - 2 x BC557 NPN transistor
 - 1 x USB Type-A female connector
 - 1 x Bornier 2-pins / JST connector 2-pins
