@@ -102,7 +102,7 @@ The 'Low Power' version uses the following electronic components:
 
 | Schematics Diagram                                   | PCB Diagram                                          |
 |------------------------------------------------------|------------------------------------------------------|
-| ![](Resources/03-low-power-schematics-diagram.png)   | ![](99-comming-soon.jpg)                             |
+| ![](Resources/03-low-power-schematics-diagram.png)   | ![](Resources/99-comming-soon.jpg)                   |
 
 | PCB Render 3D                                        | PCB Render 3D                                        |
 |------------------------------------------------------|------------------------------------------------------|
