@@ -47,15 +47,30 @@ Benchmarks:
 | USB detach + Clock @2 MHz         |            19-20 mA |
 | USB detach + SLEEP_MODE_PWR_DOWN  |              4-5 mA |
 
-I am currently working on incorporating a hardware power-on solution (using `interrupts`) that can take advantage of SLEEP_MODE_PWR_DOWN.
+I am currently working on incorporating a hardware low-power version.
 
 &nbsp;
 
-This project use the following electronic components:
+The 'Allways ON' version uses the following electronic components:
 - 1 x Arduino PRO Micro
 - 1 x IR Receiver VS1838
 - 1 x LED 3mm
 - 1 x 1k ohm resistor
+
+The 'Low Power' version uses the following electronic components:
+- 1 x Arduino PRO Micro
+- 1 x IR Receiver VS1838
+- 1 x LED 3mm
+- 1 x 1k ohm resistor
+- 1 x 47k ohm resistor
+- 2 x 10k ohm resistor
+- 1 x 100k ohm resistor
+- 2 x 4.7k ohm resistor
+- 3 x schottky diode 1N5817
+- 2 x BC547 PNP transistor
+- 2 x BC557 NPN transistor
+- 1 x USB Type A female connector
+- 1 x Bornier 2-pins / JST connector 2-pins
 
 &nbsp;
 
@@ -63,7 +78,7 @@ This project use the following electronic components:
 
 | Breadboard                                           | Assembly                                             |
 |------------------------------------------------------|------------------------------------------------------|
-| ![](Resources/01-allways-on-breadboard.jpg)          | ![](Resources/02-allways-on-assembly-jpg)            |
+| ![](Resources/01-allways-on-breadboard.jpg)          | ![](Resources/02-allways-on-assembly.jpg)            |
 
 | Schematics Diagram                                   | PCB Diagram                                          |
 |------------------------------------------------------|------------------------------------------------------|
@@ -75,7 +90,7 @@ This project use the following electronic components:
 
 | Case 3D Model                                        | Project Final                                        |
 |------------------------------------------------------|------------------------------------------------------|
-| ![](Resources/07-allways-on-case-3d-model.png)       | ![](Resources/08-allways-on-proyect-final.jpg)       |
+| ![](Resources/07-allways-on-case-3d-model.jpg)       | ![](Resources/08-allways-on-proyect-final.jpg)       |
 
 &nbsp;
 
@@ -83,7 +98,7 @@ This project use the following electronic components:
 
 | Breadboard                                           | Assembly                                             |
 |------------------------------------------------------|------------------------------------------------------|
-| ![](Resources/01-low-power-breadboard.jpg)           | ![](Resources/02-low-power-assembly-jpg)             |
+| ![](Resources/01-low-power-breadboard.jpg)           | ![](Resources/02-low-power-assembly.jpg)             |
 
 | Schematics Diagram                                   | PCB Diagram                                          |
 |------------------------------------------------------|------------------------------------------------------|
@@ -95,7 +110,7 @@ This project use the following electronic components:
 
 | Case 3D Model                                        | Project Final                                        |
 |------------------------------------------------------|------------------------------------------------------|
-| ![](Resources/07-low-power-case-3d-model.png)        | ![](Resources/08-low-power-proyect-final.jpg)        |
+| ![](Resources/07-low-power-case-3d-model.jpg)        | ![](Resources/08-low-power-proyect-final.jpg)        |
 
 See 'Rescources' sub-folder for more pictures & videos of the project.
 
