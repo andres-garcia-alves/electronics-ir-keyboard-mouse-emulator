@@ -66,11 +66,11 @@ The 'Low Power' version uses the following electronic components:
 - 2 x 10k ohm resistor
 - 1 x 100k ohm resistor
 - 2 x 4.7k ohm resistor
-- 3 x schottky diode 1N5817
-- 1 x electrolitic capacitor 10uF
+- 3 x 1N5817 schottky diode
+- 1 x 10uF electrolitic capacitor
 - 2 x BC547 PNP transistor
 - 2 x BC557 NPN transistor
-- 1 x USB Type A female connector
+- 1 x USB Type-A female connector
 - 1 x Bornier 2-pins / JST connector 2-pins
 
 &nbsp;
@@ -91,7 +91,7 @@ The 'Low Power' version uses the following electronic components:
 
 | Case 3D Model                                        | Project Final                                        |
 |------------------------------------------------------|------------------------------------------------------|
-| ![](Resources/07-allways-on-case-3d-model.jpg)       | ![](Resources/08-allways-on-proyect-final.jpg)       |
+| ![](Resources/07-allways-on-case-3d-model.jpg)       | ![](Resources/99-comming-soon.jpg)                   |
 
 &nbsp;
 
