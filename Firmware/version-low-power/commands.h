@@ -11,7 +11,7 @@
 #define MOUSE_SPEED_SLOW    10
 
 /* VARIABLES */
-byte currentSpeed = MOUSE_SPEED_NORMAL;
+static byte currentSpeed = MOUSE_SPEED_NORMAL;
 
 
 /* FUNCTIONS: MISCELLANEOUS */

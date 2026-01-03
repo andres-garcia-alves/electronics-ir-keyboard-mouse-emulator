@@ -5,8 +5,8 @@
 #include <avr/sleep.h>
 
 /* DEFINITIONS */
-#define AUTO_SLEEP_TIMEOUT (60UL * 1000UL)  // 1 minute
-#define USB_TIMEOUT 10000                   // 10 seconds
+#define TIMEOUT_INACTIVITY  (60UL * 1000UL) // 1 minute
+#define TIMEOUT_USB         10000           // 10 seconds
 
 /* VARIABLES */
 unsigned long lastActivity = 0;
@@ -32,10 +32,18 @@ void powerInit() {
 /* FUNCTIONS: MISCELLANEOUS */
 void markActivity()   { lastActivity = millis(); }
 bool isLowPowerMode() { return lowPowerMode; }
-bool checkTimeOut()   { return millis() - lastActivity >= AUTO_SLEEP_TIMEOUT; }
+bool checkTimeOut()   { return millis() - lastActivity >= TIMEOUT_INACTIVITY; }
 
 
 /* FUNCTIONS: AUTO-SLEEP */
+/*void handleLowPowerMode() {
+
+  if (lowPowerMode) {
+    setNormalPowerMode();
+    irRemoteInit();
+  } 
+}*/
+
 /*void handleAutoSleep() {
 
   if (!isLowPowerMode() && checkTimeOut()) {
@@ -48,9 +56,7 @@ bool checkTimeOut()   { return millis() - lastActivity >= AUTO_SLEEP_TIMEOUT; }
 }*/
 
 
-/* FUNCTIONS: POWER-SAVE MODES */
-
-// not working
+/* POWER-SAVE MODES (currently not workng) */
 /*void setLowPowerMode() {
 
   // detach USB
@@ -66,7 +72,6 @@ bool checkTimeOut()   { return millis() - lastActivity >= AUTO_SLEEP_TIMEOUT; }
   lowPowerMode = true;
 }*/
 
-// not working
 /*void setNormalPowerMode() {
 
   // set CPU @16 MHz
@@ -77,7 +82,7 @@ bool checkTimeOut()   { return millis() - lastActivity >= AUTO_SLEEP_TIMEOUT; }
   timeout_start = millis();
 
   while (!USBDevice.configured()) {
-    if (millis() - timeout_start > USB_TIMEOUT) { break; }
+    if (millis() - timeout_start > TIMEOUT_USB { break; }
   }
 
   // turn on LED
@@ -86,7 +91,6 @@ bool checkTimeOut()   { return millis() - lastActivity >= AUTO_SLEEP_TIMEOUT; }
   lowPowerMode = false;
 }*/
 
-// not working
 /*void powerSaveIdle() {
   debugMessage("Power: entering idle-sleep...");
 
@@ -100,7 +104,6 @@ bool checkTimeOut()   { return millis() - lastActivity >= AUTO_SLEEP_TIMEOUT; }
   debugMessage("Power: woke up.");
 }*/
 
-// not working
 /*void powerSavePowerDown() {
   debugMessage("Power: entering deep-sleep...");
 

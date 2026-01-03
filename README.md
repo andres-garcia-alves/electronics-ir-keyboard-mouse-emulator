@@ -123,7 +123,8 @@ v1.0 (2025.12.18) - Initial release.
 v1.1 (2025.12.19) - Adding case 3D model.  
 v1.2 (2025.12.22) - Update schematics and PCB.  
 v1.3 (2025.12.29) - Firmware refactor for code clean-up.  
-v1.4 (2026.01.02) - Adding Low Power protoboard & schematics diagram.  
+v1.4 (2026.01.02) - Adding low-power protoboard & schematics diagram.  
+v1.5 (2026.01.03) - Adding low-power firmware.  
 
 &nbsp;
 

@@ -1,45 +1,42 @@
-#ifndef POWER_H
-#define POWER_H
+#ifndef POWER_SLEEP_H
+#define POWER_SLEEP_H
 
-#include <avr/power.h>
-#include <avr/sleep.h>
+// #include <avr/sleep.h>
 
 /* DEFINITIONS */
-#define AUTO_SLEEP_TIMEOUT (60UL * 1000UL)  // 1 minute
-#define USB_TIMEOUT 10000                   // 10 seconds
+// #define USB_TIMEOUT      10000   // 10 seconds
 
 /* VARIABLES */
-unsigned long lastActivity = 0;
-unsigned long timeout_start = 0;
-bool lowPowerMode = false;
+// static bool lowPowerMode = false;
 
 /* FUNCTION DEFINITIOS */
 // void setLowPowerMode();
+// void setNormalPowerMode();
 // void powerSaveIdle();
 // void powerSavePowerDown();
 
 
-void powerInit() {
-  // set some power-save settings
-  power_adc_disable();        // turn off ADC
-  power_spi_disable();        // turn off SPI
-  power_twi_disable();        // turn off I2C
-  // power_usart0_disable();  // turn off UART/Serial
-  // power_timer0_disable();  // turn off Timer0
-}
+/*void sleepInit() {
+  // power_usart0_disable();          // turn off UART/Serial
+  // power_timer0_disable();          // turn off Timer0
+}*/
 
 
-/* FUNCTIONS: MISCELLANEOUS */
-void markActivity()   { lastActivity = millis(); }
-bool isLowPowerMode() { return lowPowerMode; }
-bool checkTimeOut()   { return millis() - lastActivity >= AUTO_SLEEP_TIMEOUT; }
+/* FUNCTIONS */
+// bool isLowPowerMode() { return lowPowerMode; }
 
+/*void handleLowPowerMode() {
 
-/* FUNCTIONS: AUTO-SLEEP */
+  if (lowPowerMode) {
+    setNormalPowerMode();
+    irRemoteInit();
+  } 
+}*/
+
 /*void handleAutoSleep() {
 
-  if (!isLowPowerMode() && checkTimeOut()) {
-    debugMessage("Power: auto-sleep by inactivity");
+  if (!isLowPowerMode() && checkInactivityTimeOut()) {
+    debugMessage("Power: auto sleep by inactivity");
     
     // setLowPowerMode();
     // powerSaveIdle();
@@ -48,10 +45,8 @@ bool checkTimeOut()   { return millis() - lastActivity >= AUTO_SLEEP_TIMEOUT; }
 }*/
 
 
-/* FUNCTIONS: POWER-SAVE MODES */
-
-// not working
-/*void setLowPowerMode() {
+/* POWER-SAVE MODES (currently not workng) */
+/* void setLowPowerMode() {
 
   // detach USB
   Serial.flush();
@@ -66,15 +61,14 @@ bool checkTimeOut()   { return millis() - lastActivity >= AUTO_SLEEP_TIMEOUT; }
   lowPowerMode = true;
 }*/
 
-// not working
-/*void setNormalPowerMode() {
+/* void setNormalPowerMode() {
 
   // set CPU @16 MHz
   clock_prescale_set(clock_div_1);
 
   // attach USB
   USBDevice.attach();
-  timeout_start = millis();
+  unsigned long timeout_start = millis();
 
   while (!USBDevice.configured()) {
     if (millis() - timeout_start > USB_TIMEOUT) { break; }
@@ -86,7 +80,6 @@ bool checkTimeOut()   { return millis() - lastActivity >= AUTO_SLEEP_TIMEOUT; }
   lowPowerMode = false;
 }*/
 
-// not working
 /*void powerSaveIdle() {
   debugMessage("Power: entering idle-sleep...");
 
@@ -100,7 +93,6 @@ bool checkTimeOut()   { return millis() - lastActivity >= AUTO_SLEEP_TIMEOUT; }
   debugMessage("Power: woke up.");
 }*/
 
-// not working
 /*void powerSavePowerDown() {
   debugMessage("Power: entering deep-sleep...");
 

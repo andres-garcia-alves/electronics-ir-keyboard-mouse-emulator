@@ -37,12 +37,6 @@
 
 
 /* FUNCTIONS */
-void inputInit() {
-  pinMode(PIN_RECEIVER, INPUT);
-  pinMode(PIN_LED, OUTPUT);
-  digitalWrite(PIN_LED, HIGH);
-}
-
 void debounceShort()  { delay(DEBOUNCE_SHORT); }
 void debounceLong()   { delay(DEBOUNCE_LONG); }
 

@@ -910,6 +910,176 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "D_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D5"
+				(at -1.27 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1N5817"
+				(at -3.302 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 -12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at -18.542 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at -22.606 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at -9.906 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized"
 			(pin_numbers
 				(hide yes)
@@ -2734,12 +2904,6 @@
 		(uuid "35f89365-7068-4329-8ed2-26139de32f36")
 	)
 	(junction
-		(at 147.32 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b9c464f-118c-4525-845d-b6d99a4b7a3b")
-	)
-	(junction
 		(at 121.92 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2756,6 +2920,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53b681f2-2833-4342-8352-7fdcdd35a52e")
+	)
+	(junction
+		(at 167.64 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b59b1c3-abcf-42f9-90a0-5d395d049c5e")
 	)
 	(junction
 		(at 140.97 125.73)
@@ -2805,6 +2975,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 53.34) (xy 157.48 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a496edb-5a02-4a78-a15a-caabad154f40")
+	)
+	(wire
+		(pts
 			(xy 116.84 111.76) (xy 109.22 111.76)
 		)
 		(stroke
@@ -2835,7 +3015,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 74.93) (xy 147.32 74.93)
+			(xy 144.78 74.93) (xy 149.86 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2885,6 +3065,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 105.41) (xy 213.36 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220ed2ce-4b94-4eb8-abad-3c74f44de725")
+	)
+	(wire
+		(pts
 			(xy 119.38 72.39) (xy 119.38 74.93)
 		)
 		(stroke
@@ -2905,13 +3095,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 64.77) (xy 147.32 74.93)
+			(xy 147.32 58.42) (xy 149.86 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c08300a-8838-464c-88fc-71ed1b072b78")
+		(uuid "2c59256c-8ba5-4f7d-b9a9-23e9cb2e5b2a")
 	)
 	(wire
 		(pts
@@ -3015,6 +3205,26 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 50.8) (xy 167.64 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3bc748-c2e4-4144-ab6b-05c4bf8cb880")
+	)
+	(wire
+		(pts
+			(xy 167.64 50.8) (xy 167.64 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630f39b1-6136-4cd2-9bc8-fdce1100ab7d")
+	)
+	(wire
+		(pts
 			(xy 171.45 64.77) (xy 180.34 64.77)
 		)
 		(stroke
@@ -3022,6 +3232,16 @@
 			(type default)
 		)
 		(uuid "63332b3d-c8d2-4b98-b949-47f50ea3050a")
+	)
+	(wire
+		(pts
+			(xy 147.32 64.77) (xy 147.32 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63fa972f-661d-442e-9b05-19f522060e45")
 	)
 	(wire
 		(pts
@@ -3095,6 +3315,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 63.5) (xy 157.48 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b4bb51-da93-4e68-80d4-f8358f8291b2")
+	)
+	(wire
+		(pts
 			(xy 157.48 80.01) (xy 157.48 87.63)
 		)
 		(stroke
@@ -3122,6 +3352,16 @@
 			(type default)
 		)
 		(uuid "7c6c670f-b9f2-442e-92a0-64a5756f68ce")
+	)
+	(wire
+		(pts
+			(xy 213.36 95.25) (xy 213.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6a6339-60a2-4c76-aa4f-2e751ad3dc79")
 	)
 	(wire
 		(pts
@@ -3212,16 +3452,6 @@
 			(type default)
 		)
 		(uuid "8fc74806-35ee-4d00-bef1-f4fa1fd8184c")
-	)
-	(wire
-		(pts
-			(xy 147.32 74.93) (xy 149.86 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a9efdd4-93a9-4623-a948-6ebea0930196")
 	)
 	(wire
 		(pts
@@ -3472,6 +3702,28 @@
 			(type default)
 		)
 		(uuid "ff0a9bd7-8c8f-4d8a-b3a6-fbf30f8984e3")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 154.94 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b4f88cf-b26b-4ac3-a6e7-73064c32767f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.0843 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GND"
 		(shape input)
@@ -3825,6 +4077,28 @@
 			)
 		)
 	)
+	(global_label "IR_OUT"
+		(shape input)
+		(at 213.36 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d14cf151-e734-450e-94e5-2b6c847e9f9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.8162 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ON_OFF"
 		(shape input)
 		(at 181.61 120.65 180)
@@ -4024,6 +4298,95 @@
 			(project "IR-Keyboard-Mouse-Emulator"
 				(path "/58c9e19a-4594-4c28-bb07-5c5bf28794f4"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "D_1")
+		(lib_id "Device:D")
+		(at 213.36 101.6 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1af38fcd-4d68-4f9a-bd1d-34cdbdedf353")
+		(property "Reference" "D2"
+			(at 216.408 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 218.694 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 225.806 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 223.52 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 223.52 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 223.774 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fcb5b227-e357-4ac7-931d-dbbbdf025f2a")
+		)
+		(pin "1"
+			(uuid "a161148a-b2f6-4854-9a45-2829d387b356")
+		)
+		(instances
+			(project "IR-Keyboard-Mouse-Emulator"
+				(path "/58c9e19a-4594-4c28-bb07-5c5bf28794f4"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4236,7 +4599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4069f125-7f6c-4f3f-a9c0-8cbdb7e4572d")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 114.808 67.31 0)
 			(effects
 				(font
@@ -4245,7 +4608,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5817"
+		(property "Value" "1N4148"
 			(at 116.84 65.024 0)
 			(effects
 				(font
@@ -4308,7 +4671,7 @@
 		(instances
 			(project "IR-Keyboard-Mouse-Emulator"
 				(path "/58c9e19a-4594-4c28-bb07-5c5bf28794f4"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4342,7 +4705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 182.88 73.025 0)
 			(effects
 				(font
@@ -4612,7 +4975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 160.02 76.835 0)
 			(effects
 				(font
@@ -4687,7 +5050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 109.855 64.77 0)
 			(effects
 				(font
@@ -4938,6 +5301,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC547")
+		(at 154.94 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d934345-888c-46f6-bf67-7dd1c4104636")
+		(property "Reference" "Q5"
+			(at 159.512 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547"
+			(at 159.512 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+			(at 160.02 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 154.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(at 154.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "97d9a4f2-a5c1-44ba-9f50-7262669005b0")
+		)
+		(pin "1"
+			(uuid "5c02f3e7-8f44-4360-9e3d-4e5174d5e900")
+		)
+		(pin "2"
+			(uuid "e08c66eb-b9f1-4a71-af5e-51d23ebf9cd6")
+		)
+		(instances
+			(project "IR-Keyboard-Mouse-Emulator"
+				(path "/58c9e19a-4594-4c28-bb07-5c5bf28794f4"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:BC557")
 		(at 110.49 77.47 270)
 		(mirror x)
@@ -4963,7 +5401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 108.585 72.39 0)
 			(effects
 				(font
@@ -5371,7 +5809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7bf2491-62e3-40a9-b249-3d67a78dcf93")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 142.24 60.198 0)
 			(effects
 				(font
@@ -5380,7 +5818,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5817"
+		(property "Value" "1N4148"
 			(at 145.034 62.23 0)
 			(effects
 				(font
@@ -5443,7 +5881,7 @@
 		(instances
 			(project "IR-Keyboard-Mouse-Emulator"
 				(path "/58c9e19a-4594-4c28-bb07-5c5bf28794f4"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5524,7 +5962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d651c621-f511-4a7f-826d-626a6a4faf0b")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 142.24 70.358 0)
 			(effects
 				(font
@@ -5533,7 +5971,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5817"
+		(property "Value" "1N4148"
 			(at 144.526 72.39 0)
 			(effects
 				(font
@@ -5596,7 +6034,7 @@
 		(instances
 			(project "IR-Keyboard-Mouse-Emulator"
 				(path "/58c9e19a-4594-4c28-bb07-5c5bf28794f4"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
