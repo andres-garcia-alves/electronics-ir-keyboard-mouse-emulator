@@ -96,9 +96,9 @@
 		(at 151.13 93.98)
 		(tags "SparkFun")
 		(property "Reference" "U2"
-			(at 0 0 0)
+			(at 0 -13.97 180)
 			(layer "F.Fab")
-			(uuid "18f7eaf1-14ac-4939-b1a8-8e5548687136")
+			(uuid "dcd9c0ac-ff84-476c-a377-8e1cd357a21d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -106,10 +106,10 @@
 				)
 			)
 		)
-		(property "Value" "ProMicroC"
-			(at 0 -5.08 0)
+		(property "Value" "Arduino_Pro_Micro"
+			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "1dd0c9f0-02fb-4a68-a29e-09a7a8303c2d")
+			(uuid "d1a6b306-d81f-4c58-85c9-c7078ae63c94")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122,7 +122,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "18e0ed02-da8e-44f3-b855-c0a038970490")
+			(uuid "57e0b934-3122-4027-8fa0-c1b2f38d124d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -135,7 +135,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69b3635c-d0d6-4ae3-a33d-a8e5077f266b")
+			(uuid "2b314c6d-6858-4751-bb49-707b0ad11061")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,7 +491,7 @@
 		(descr "IR Receiver Vishay TSOP-xxxx, MINICAST package, see https://www.vishay.com/docs/82669/tsop32s40f.pdf")
 		(tags "IR Receiver Vishay TSOP-xxxx MINICAST")
 		(property "Reference" "U1"
-			(at -2.2 1.27 180)
+			(at -2.3 0 180)
 			(layer "F.SilkS")
 			(uuid "5deeb882-0124-473f-a8fc-7c35cdae07e3")
 			(effects
@@ -1012,7 +1012,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "10K"
 			(at 3.81 0 90)
 			(layer "F.Fab")
 			(uuid "4034ee10-ef3d-4652-906d-76f02f5e2046")

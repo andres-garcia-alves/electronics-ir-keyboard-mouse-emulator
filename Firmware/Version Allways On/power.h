@@ -21,9 +21,11 @@ bool lowPowerMode = false;
 
 void powerInit() {
   // set some power-save settings
-  power_adc_disable();
-  power_spi_disable();
-  power_twi_disable();
+  power_adc_disable();        // turn off ADC
+  power_spi_disable();        // turn off SPI
+  power_twi_disable();        // turn off I2C
+  // power_usart0_disable();  // turn off UART/Serial
+  // power_timer0_disable();  // turn off Timer0
 }
 
 
