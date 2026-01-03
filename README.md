@@ -67,6 +67,7 @@ The 'Low Power' version uses the following electronic components:
 - 1 x 100k ohm resistor
 - 2 x 4.7k ohm resistor
 - 3 x schottky diode 1N5817
+- 1 x electrolitic capacitor 10uF
 - 2 x BC547 PNP transistor
 - 2 x BC557 NPN transistor
 - 1 x USB Type A female connector
