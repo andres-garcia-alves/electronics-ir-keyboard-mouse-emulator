@@ -2,11 +2,11 @@
 #define HARDWARE_H
 
 /* DEFINITIONS */
-#define PIN_IR_RECEIVER       9     // IR reciever pin (VS1838)
-#define PIN_LED               14    // LED pin
+#define PIN_IR_RECEIVER       6   // IR reciever pin (VS1838)
+#define PIN_LED               2   // LED pin
 
-#define PIN_LATCH_ON_OFF      5     // Arduino Power Latch pin
-#define PIN_LATCH_CAP_DISCH   4     // Capacitor (C1) Power Latch pin
+#define PIN_LATCH_ON_OFF      15  // Arduino Power Latch pin
+#define PIN_LATCH_CAP_DISCH   14  // Capacitor (C1) Power Latch pin
 
 #define DELAY_IR_RECEIVER     100
 
