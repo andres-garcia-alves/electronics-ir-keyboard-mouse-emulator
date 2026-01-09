@@ -136,6 +136,7 @@ v1.5 (2026.01.03) - Adding low-power version firmware.
 v1.6 (2026.01.04) - Adding low-power version PCB.  
 v1.7 (2026.01.04) - Adding low-power case 3D model.  
 v1.8 (2026.01.06) - Minor fixes on low-power case 3D model.  
+v1.9 (2026.01.09) - Minor fixes on low-power PCB.  
 
 &nbsp;
 
