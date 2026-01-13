@@ -59,13 +59,13 @@ I am currently working on incorporating a hardware low-power version.
 
 &nbsp;
 
-The 'Allways ON' version uses the following electronic components:
+The `Allways ON` version uses the following electronic components:
 - 1 x Arduino PRO Micro
 - 1 x IR Receiver VS1838
 - 1 x LED 3mm
 - 1 x 1k ohm resistor
 
-The 'Low Power' version uses the following electronic components:
+The `Low Power` version uses the following electronic components:
 - 1 x Arduino PRO Micro
 - 1 x IR Receiver VS1838
 - 1 x LED 3mm
