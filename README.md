@@ -87,19 +87,19 @@ The 'Low Power' version uses the following electronic components:
 
 | Breadboard                                           | Assembly                                             |
 |------------------------------------------------------|------------------------------------------------------|
-| ![](Resources/01-allways-on-breadboard.jpg)          | ![](Resources/02-allways-on-assembly.jpg)            |
+| ![](Resources/Allways-On/01-breadboard.jpg)          | ![](Resources/Allways-On/02-assembly.jpg)            |
 
 | Schematics Diagram                                   | PCB Diagram                                          |
 |------------------------------------------------------|------------------------------------------------------|
-| ![](Resources/03-allways-on-schematics-diagram.png)  | ![](Resources/04-allways-on-pcb-diagram.png)         |
+| ![](Resources/Allways-On/03-schematics-diagram.png)  | ![](Resources/Allways-On/04-pcb-diagram.png)         |
 
 | PCB Render 3D                                        | PCB Render 3D                                        |
 |------------------------------------------------------|------------------------------------------------------|
-| ![](Resources/05-allways-on-pcb-render-3d-front.png) | ![](Resources/06-allways-on-pcb-render-3d-rear.png)  |
+| ![](Resources/Allways-On/05-pcb-render-3d-front.png) | ![](Resources/Allways-On/06-pcb-render-3d-rear.png)  |
 
 | Case 3D Model                                        | Project Final                                        |
 |------------------------------------------------------|------------------------------------------------------|
-| ![](Resources/07-allways-on-case-3d-model.jpg)       | ![](Resources/99-comming-soon.jpg)                   |
+| ![](Resources/Allways-On/07-case-3d-model.jpg)       | ![](Resources/99-comming-soon.jpg)                   |
 
 &nbsp;
 
@@ -107,19 +107,19 @@ The 'Low Power' version uses the following electronic components:
 
 | Breadboard                                           | Assembly                                             |
 |------------------------------------------------------|------------------------------------------------------|
-| ![](Resources/01-low-power-breadboard.jpg)           | ![](Resources/99-comming-soon.jpg)                   |
+| ![](Resources/Low-Power/01-breadboard.jpg)           | ![](Resources/02-low-power-assembly-01.jpg)          |
 
 | Schematics Diagram                                   | PCB Diagram                                          |
 |------------------------------------------------------|------------------------------------------------------|
-| ![](Resources/03-low-power-schematics-diagram.png)   | ![](Resources/04-low-power-pcb-diagram.png)          |
+| ![](Resources/Low-Power/03-schematics-diagram.png)   | ![](Resources/Low-Power/04-pcb-diagram.png)          |
 
 | PCB Render 3D                                        | PCB Render 3D                                        |
 |------------------------------------------------------|------------------------------------------------------|
-| ![](Resources/05-low-power-pcb-render-3d-front.png)  | ![](Resources/06-low-power-pcb-render-3d-rear.png)   |
+| ![](Resources/Low-Power/05-pcb-render-3d-front.png)  | ![](Resources/Low-Power/06-pcb-render-3d-rear.png)   |
 
 | Case 3D Model                                        | Project Final                                        |
 |------------------------------------------------------|------------------------------------------------------|
-| ![](Resources/07-low-power-case-3d-model.jpg)        | ![](Resources/99-comming-soon.jpg)                   |
+| ![](Resources/Low-Power/07-case-3d-model.jpg)        | ![](Resources/99-comming-soon.jpg)                   |
 
 See 'Rescources' sub-folder for more pictures & videos of the project.
 
