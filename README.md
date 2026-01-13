@@ -107,7 +107,7 @@ The `Low Power` version uses the following electronic components:
 
 | Breadboard                                           | Assembly                                             |
 |------------------------------------------------------|------------------------------------------------------|
-| ![](Resources/Low-Power/01-breadboard.jpg)           | ![](Resources/02-low-power-assembly-01.jpg)          |
+| ![](Resources/Low-Power/01-breadboard.jpg)           | ![](Resources/Low-Power/02-assembly-01.jpg)          |
 
 | Schematics Diagram                                   | PCB Diagram                                          |
 |------------------------------------------------------|------------------------------------------------------|
