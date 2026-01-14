@@ -5,13 +5,17 @@ Schematics diagram + PCB diagram (KiCAD 9) and case 3D model (Blender) are also 
 
 This project comes in two versions: `Allways On` and `Low Power`.
 
-- The first option provides an immediate response when a remote control button is pressed.  
+- The `Allways On` version provides an immediate response when a remote control button is pressed.  
 However, the gadget will constantly draw approximately 35-40mA from the USB port.
 
-- The second option automatically powers down the device after 30 seconds of inactivity, and it powers back on upon receiving an IR signal.  
+- The `Low Power` version automatically powers down the device after 30 seconds of inactivity, and it powers back on upon receiving an IR signal.  
 This allows the gadget's power consumption to drop 99% of the time to ~1mA (the consumption of the IR sensor, the only component that remains powered on).  
-However, due to the power-up time and the wait for the PC to recognize the device, there is a slight delay before it can be used.
-
+However, due to the power-up time and the wait for the PC to recognize the device, there is a slight delay before it can be used.  
+A high-side topology is used to power down the Arduino.
+  - Hardware Variant A: External connection with a USB-A cable to J1 (USB-A socket).  
+    Use a 2-strand cable from J2 (2-pins header) to the USB jack of Arduino for **data only** (D+/D-).
+  - Hardware Variant B: External connection with a USB-B mini/micro cable to Arduino.  
+    Cut the VCC wire of USB-B cable and pass it through J1 (2-pins header).
 
 &nbsp;
 
@@ -131,13 +135,13 @@ v1.00 (2025.12.18) - Initial release.
 v1.01 (2025.12.19) - Adding case 3D model.  
 v1.02 (2025.12.22) - Update schematics and PCB.  
 v1.03 (2025.12.29) - Firmware refactor for code clean-up.  
-v1.04 (2026.01.02) - Adding low-power version protoboard & schematics.  
-v1.05 (2026.01.03) - Adding low-power version firmware.  
-v1.06 (2026.01.04) - Adding low-power version PCB.  
-v1.07 (2026.01.04) - Adding low-power case 3D model.  
-v1.08 (2026.01.06) - Minor fixes on low-power case 3D model.  
-v1.09 (2026.01.09) - Minor fixes on low-power PCB.  
-v1.10 (2026.01.14) - Minor fixes on allways-on PCB.  
+v1.04 (2026.01.02) - Adding Low-Power-A version protoboard & schematics.  
+v1.05 (2026.01.03) - Adding Low-Power-A version firmware.  
+v1.06 (2026.01.04) - Adding Low-Power-A version PCB.  
+v1.07 (2026.01.04) - Adding Low-Power-A case 3D model.  
+v1.08 (2026.01.06) - Minor fixes on Low-Power-A case 3D model.  
+v1.09 (2026.01.09) - Minor fixes on Low-Power-A PCB.  
+v1.10 (2026.01.14) - Adding Low-Power-B version schematics & PCB.  
 
 &nbsp;
 
