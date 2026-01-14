@@ -127,16 +127,17 @@ See 'Rescources' sub-folder for more pictures & videos of the project.
 
 ### Version History
 
-v1.0 (2025.12.18) - Initial release.  
-v1.1 (2025.12.19) - Adding case 3D model.  
-v1.2 (2025.12.22) - Update schematics and PCB.  
-v1.3 (2025.12.29) - Firmware refactor for code clean-up.  
-v1.4 (2026.01.02) - Adding low-power version protoboard & schematics.  
-v1.5 (2026.01.03) - Adding low-power version firmware.  
-v1.6 (2026.01.04) - Adding low-power version PCB.  
-v1.7 (2026.01.04) - Adding low-power case 3D model.  
-v1.8 (2026.01.06) - Minor fixes on low-power case 3D model.  
-v1.9 (2026.01.09) - Minor fixes on low-power PCB.  
+v1.00 (2025.12.18) - Initial release.  
+v1.01 (2025.12.19) - Adding case 3D model.  
+v1.02 (2025.12.22) - Update schematics and PCB.  
+v1.03 (2025.12.29) - Firmware refactor for code clean-up.  
+v1.04 (2026.01.02) - Adding low-power version protoboard & schematics.  
+v1.05 (2026.01.03) - Adding low-power version firmware.  
+v1.06 (2026.01.04) - Adding low-power version PCB.  
+v1.07 (2026.01.04) - Adding low-power case 3D model.  
+v1.08 (2026.01.06) - Minor fixes on low-power case 3D model.  
+v1.09 (2026.01.09) - Minor fixes on low-power PCB.  
+v1.10 (2026.01.14) - Minor fixes on allways-on PCB.  
 
 &nbsp;
 
