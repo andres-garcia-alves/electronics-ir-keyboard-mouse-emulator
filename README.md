@@ -142,6 +142,7 @@ v1.07 (2026.01.04) - Adding Low-Power-A case 3D model.
 v1.08 (2026.01.06) - Minor fixes on Low-Power-A case 3D model.  
 v1.09 (2026.01.09) - Minor fixes on Low-Power-A PCB.  
 v1.10 (2026.01.14) - Adding Low-Power-B version schematics & PCB.  
+v1.15 (2026.01.15) - Adding Low-Power-B 3D model.  
 
 &nbsp;
 
