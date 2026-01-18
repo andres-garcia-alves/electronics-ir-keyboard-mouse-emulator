@@ -5,7 +5,7 @@
 	(uuid "58c9e19a-4594-4c28-bb07-5c5bf28794f4")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
+		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,8 +21,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
+			(property "Description" "Generic connector, single row, 01x01, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,21 +82,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_Pin_1_1"
+			(symbol "Conn_01x01_Pin_1_1"
 				(rectangle
 					(start 0.8636 0.127)
 					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -117,18 +106,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
@@ -140,24 +117,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3027,7 +2986,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 86.36) (xy 92.71 86.36)
+			(xy 92.71 85.09) (xy 95.25 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3144,16 +3103,6 @@
 			(type default)
 		)
 		(uuid "b00552bb-edb6-4655-9732-4d4c324bb4b1")
-	)
-	(wire
-		(pts
-			(xy 90.17 88.9) (xy 92.71 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b391c6cc-51f8-4a4f-8722-65adc18bdd88")
 	)
 	(wire
 		(pts
@@ -3645,28 +3594,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 90.17 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bb318875-f276-41e5-aa44-321a976e7db4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.3143 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IR_OUT"
 		(shape input)
 		(at 123.19 88.9 180)
@@ -3713,7 +3640,7 @@
 	)
 	(global_label "+5V"
 		(shape input)
-		(at 90.17 86.36 180)
+		(at 92.71 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3723,7 +3650,7 @@
 		)
 		(uuid "cbb82016-6944-46ac-bdb7-cb5e28496ceb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.3143 86.36 0)
+			(at 85.8543 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,8 +3771,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 97.79 88.9 180)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 100.33 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3853,7 +3780,7 @@
 		(dnp no)
 		(uuid "00815773-7e99-436b-bbb0-7675721720c8")
 		(property "Reference" "J1"
-			(at 99.06 86.3599 0)
+			(at 101.6 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3861,8 +3788,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "01x02"
-			(at 99.06 88.8999 0)
+		(property "Value" "USB"
+			(at 101.6 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,8 +3797,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
-			(at 97.79 88.9 0)
+		(property "Footprint" "Connector_Pin:Pin_D1.2mm_L11.3mm_W3.0mm_Flat"
+			(at 100.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +3807,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 88.9 0)
+			(at 100.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,17 +3815,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 97.79 88.9 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 100.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "cf05b7e9-1c9c-430f-a10d-0d2a3d76d7b5")
 		)
 		(pin "1"
 			(uuid "b45155bf-1488-4221-bdea-9d57f13e0cc5")
@@ -4869,7 +4793,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "4K7"
 			(at 127.762 63.5 90)
 			(effects
 				(font
@@ -5225,7 +5149,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "4K7"
 			(at 129.286 121.92 90)
 			(effects
 				(font
@@ -5293,7 +5217,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "4K7"
 			(at 128.778 53.34 90)
 			(effects
 				(font
