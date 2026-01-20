@@ -15,13 +15,11 @@
   #define PIN_LED               2     // LED pin
   #define PIN_LATCH_ON_OFF      15    // Arduino Power Latch pin
   #define PIN_LATCH_CAP_DISCH   14    // Capacitor (C1) Power Latch pin
-
 #elif LOW_POWER_VERSION == 'B'        // LOW-POWER-B
   #define PIN_IR_RECEIVER       8     // IR Reciever (VS1838) pin
   #define PIN_LED               9     // LED pin
   #define PIN_LATCH_ON_OFF      16    // Arduino Power Latch pin
   #define PIN_LATCH_CAP_DISCH   10    // Capacitor (C1) Power Latch pin
-
 #else
   #error "Invalid LOW_POWER_VERSION: use 'A' or 'B'"
 #endif

@@ -3,7 +3,8 @@
 Electronic project for use a IR Remote Control to control a Home Theater PC (HTPC) based on Arduino PRO Micro.  
 Schematics diagram + PCB diagram (KiCAD 9) and case 3D model (Blender) are also provided.
 
-This project comes in two versions: `Allways On` and `Low Power`.
+This project comes in two versions: `Allways On` and `Low Power`.  
+**Very important**: the current status of the `Low Power` version is **not working**, maybe I'll give it another try in the future.
 
 - The `Allways On` version provides an immediate response when a remote control button is pressed.  
 However, the gadget will constantly draw approximately 35-40mA from the USB port.
@@ -111,7 +112,11 @@ The `Low Power` version uses the following electronic components:
 
 | Breadboard                                            | Assembly                                              |
 |-------------------------------------------------------|-------------------------------------------------------|
-| ![](Resources/Low-Power-B/01-breadboard.jpg)          | ![](Resources/Low-Power-B/02-assembly-01.jpg)         |
+| ![](Resources/Low-Power-B/01-breadboard.jpg)          | ![](Resources/Low-Power-B/02-assembly-02.jpg)         |
+
+| Assembly                                              | Assembly                                              |
+|-------------------------------------------------------|-------------------------------------------------------|
+| ![](Resources/Low-Power-B/02-assembly-03.jpg)         | ![](Resources/Low-Power-B/02-assembly-05.jpg)         |
 
 | Schematics Diagram                                    | PCB Diagram                                           |
 |-------------------------------------------------------|-------------------------------------------------------|

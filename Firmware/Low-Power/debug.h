@@ -2,7 +2,7 @@
 #define DEBUG_H
 
 /* DEFINITIONS */
-#define DEBUG         false   // enable/disable debuging
+#define DEBUG         true    // enable/disable debuging
 #define DELAY_SERIAL  50      // little delay after a Serial.print()
 
 

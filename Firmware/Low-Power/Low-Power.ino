@@ -9,15 +9,17 @@
 
 void setup() {
 
-  delay(100);               // safety measure (previously 4000)
+  delay(100);               // safety measure
   hardwareInit();           // hardware pin modes
 
   debugInit();              // debuging
   irRemoteInit(IrReceiver); // full reset of IRremote
   commandsInit();           // HID: media keys, keyboard & mouse
   powerInit();              // disable unnecessary hardware
-  
+
+  delay(100);
   debugMessage("System ready");
+  delay(100);
 }
 
 void loop() {
